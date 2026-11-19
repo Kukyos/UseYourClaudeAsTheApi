@@ -1,0 +1,12 @@
+{
+  "name": "subscription-as-api",
+  "version": "0.1.0",
+  "description": "Use your Claude Pro/Max subscription as the LLM API for your projects, through headless Claude Code.",
+  "author": {
+    "name": "kukyos"
+  },
+  "homepage": "https://github.com/kukyos/useyourclaudeastheapi",
+  "repository": "https://github.com/kukyos/useyourclaudeastheapi",
+  "license": "MIT",
+  "keywords": ["api", "proxy", "subscription", "anthropic", "openai"]
+}

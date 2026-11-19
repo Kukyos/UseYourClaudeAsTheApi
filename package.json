@@ -1,0 +1,41 @@
+{
+  "name": "use-your-claude",
+  "version": "0.1.0",
+  "description": "Use your Claude Pro/Max subscription as a local Anthropic- and OpenAI-compatible API, powered by headless Claude Code.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "use-your-claude": "bin/use-your-claude.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "clients",
+    "skills",
+    ".claude-plugin"
+  ],
+  "scripts": {
+    "start": "node bin/use-your-claude.js",
+    "test": "node --test test/bridge.test.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "openai",
+    "proxy",
+    "llm",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kukyos/useyourclaudeastheapi.git"
+  },
+  "license": "MIT"
+}

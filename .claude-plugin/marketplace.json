@@ -1,0 +1,16 @@
+{
+  "name": "useyourclaudeastheapi",
+  "owner": {
+    "name": "kukyos"
+  },
+  "plugins": [
+    {
+      "name": "subscription-as-api",
+      "source": "./",
+      "description": "Use your Claude Pro/Max subscription as the LLM API for your projects, through headless Claude Code."
+    }
+  ],
+  "metadata": {
+    "description": "Use your Claude Pro/Max subscription as the LLM API for your own projects."
+  }
+}
